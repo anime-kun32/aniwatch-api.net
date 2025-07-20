@@ -21,3 +21,4 @@ jobs:
         run: |
           render login --api-key "$RENDER_API_KEY"
           render blueprint deploy --no-templating --path ./render.yaml
+
