@@ -4,6 +4,7 @@ services:
     env: docker
     plan: free
     region: oregon
+    repo:https://github.com/anime-kun32/aniwatch-api.net
     dockerfilePath: ./Dockerfile
     envVars:
       - key: ANIWATCH_API_CORS_ALLOWED_ORIGINS
