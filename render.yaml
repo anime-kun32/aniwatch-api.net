@@ -3,7 +3,7 @@ services:
     name: aniwatch-api
     runtime: docker
     repo: https://github.com/anime-kun32/aniwatch-api.net.git
- plan: free
+    plan: free
     branch: main
     envVars:
       - key: PORT
