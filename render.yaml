@@ -5,6 +5,7 @@ services:
     repo: https://github.com/anime-kun32/aniwatch-api.net.git
     plan: free
     branch: main
+    dockerfilePath: Dockerfile
     envVars:
       - key: PORT
-        value: 4000
+        value: "4000"
