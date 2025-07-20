@@ -20,4 +20,4 @@ jobs:
           RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
         run: |
           render login --api-key "$RENDER_API_KEY"
-          render blueprint deploy
+          render blueprint deploy --no-templating
