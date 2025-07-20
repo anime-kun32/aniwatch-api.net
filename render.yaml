@@ -3,11 +3,8 @@ services:
     name: aniwatch-api
     runtime: docker
     repo: https://github.com/anime-kun32/aniwatch-api.net.git
-    plan: free
+ plan: free
     branch: main
     envVars:
       - key: PORT
         value: 4000
-
-      - key: ANIWATCH_API_CORS_ALLOWED_ORIGINS
-        value: "https://aniteams.vercel.app,https://otaku-calender.vercel.app,https://aniteams-player.vercel.app,https://anime-website-khaki.vercel.app,https://aniteams-old.vercel.app,https://airin-alpha.vercel.app,https://otaku-calendar.vercel.app,https://aniteams-player-livid.vercel.app,https://aniteams-v2.vercel.app,https://ani-fire-delta.vercel.app,https://zenime-two-pink.vercel.app,https://hianime-spotlight.vercel.app,https://aniteam.rf.gd,http://127.0.0.1,https://streamio-hianime.vercel.app" 
